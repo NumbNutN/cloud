@@ -1,0 +1,662 @@
+
+Command 'cakin_make' not found, did you mean:
+
+  command 'catkin_make' from deb catkin (0.8.0-1ubuntu2)
+
+Try: sudo apt install <deb name>
+
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /mnt/d/Coding/slam/template/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /home/numbnut/miniconda3/bin/python3 (found suitable version "3.11.4", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/numbnut/miniconda3/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /home/numbnut/miniconda3/lib/python3.11/site-packages/em.py  
+-- Using empy: /home/numbnut/miniconda3/lib/python3.11/site-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /mnt/d/Coding/slam/template/build/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /home/numbnut/miniconda3/bin/python3 (found version "3.11.4") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - rviz
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'rviz'
+-- ==> add_subdirectory(rviz)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem program_options system thread 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.6.3") 
+-- Checking for modules 'OGRE;OGRE-Overlay'
+--   Found OGRE, version 1.9.0
+--   Found OGRE-Overlay, version 1.9.0
+-- OGRE_INCLUDE_DIRS=/usr/include/OGRE;/usr/include/OGRE/Overlay
+-- OGRE_LIBRARIES=/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;/usr/lib/x86_64-linux-gnu/libOgreMain.so;/usr/lib/x86_64-linux-gnu/libpthread.so
+-- OGRE_PLUGIN_DIR=/usr/lib/x86_64-linux-gnu/OGRE-1.9.0
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found PythonLibs: /home/numbnut/miniconda3/lib/libpython3.11.so (found suitable version "3.11.4", minimum required is "3.11") 
+-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+-- rviz: 0 messages, 1 services
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- making version 1.14.20.
+-- Found PythonInterp: /home/numbnut/miniconda3/bin/python3 (found suitable version "3.11.4", minimum required is "3.11") 
+-- SIP binding generator available at: /usr/bin/sip
+-- Python binding generators: sip
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/Coding/slam/template/build
+Scanning dependencies of target _rviz_generate_messages_check_deps_SendFilePath
+Scanning dependencies of target map_msgs_generate_messages_eus
+Scanning dependencies of target std_msgs_generate_messages_nodejs
+Scanning dependencies of target std_srvs_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_cpp
+Scanning dependencies of target std_srvs_generate_messages_lisp
+Scanning dependencies of target std_msgs_generate_messages_lisp
+Scanning dependencies of target std_msgs_generate_messages_eus
+Scanning dependencies of target std_msgs_generate_messages_py
+Scanning dependencies of target std_srvs_generate_messages_nodejs
+Scanning dependencies of target std_srvs_generate_messages_eus
+Scanning dependencies of target actionlib_generate_messages_cpp
+Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+Scanning dependencies of target nav_msgs_generate_messages_lisp
+Scanning dependencies of target actionlib_generate_messages_nodejs
+Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target map_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+Scanning dependencies of target std_srvs_generate_messages_py
+Scanning dependencies of target actionlib_msgs_generate_messages_eus
+Scanning dependencies of target actionlib_msgs_generate_messages_py
+Scanning dependencies of target map_msgs_generate_messages_nodejs
+Scanning dependencies of target roscpp_generate_messages_cpp
+Scanning dependencies of target roscpp_generate_messages_lisp
+Scanning dependencies of target actionlib_generate_messages_lisp
+Scanning dependencies of target roscpp_generate_messages_py
+Scanning dependencies of target visualization_msgs_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_eus
+Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+Scanning dependencies of target sensor_msgs_generate_messages_eus
+Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target map_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+Scanning dependencies of target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_py
+Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+Scanning dependencies of target tf_generate_messages_eus
+Scanning dependencies of target tf2_msgs_generate_messages_cpp
+Scanning dependencies of target actionlib_generate_messages_eus
+Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target roscpp_generate_messages_nodejs
+Scanning dependencies of target tf_generate_messages_cpp
+Scanning dependencies of target map_msgs_generate_messages_lisp
+Scanning dependencies of target map_msgs_generate_messages_cpp
+Scanning dependencies of target rosgraph_msgs_generate_messages_py
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target tf2_msgs_generate_messages_py
+Scanning dependencies of target nav_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target map_msgs_generate_messages_lisp
+[  0%] Built target map_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_cpp
+Scanning dependencies of target visualization_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_eus
+Scanning dependencies of target roscpp_generate_messages_eus
+Scanning dependencies of target tf2_msgs_generate_messages_eus
+Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+Scanning dependencies of target visualization_msgs_generate_messages_lisp
+Scanning dependencies of target nav_msgs_generate_messages_nodejs
+Scanning dependencies of target sensor_msgs_generate_messages_py
+Scanning dependencies of target sensor_msgs_generate_messages_cpp
+Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+Scanning dependencies of target tf_generate_messages_py
+Scanning dependencies of target actionlib_generate_messages_py
+Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+Scanning dependencies of target nav_msgs_generate_messages_eus
+Scanning dependencies of target tf2_msgs_generate_messages_lisp
+Scanning dependencies of target tf2_msgs_generate_messages_nodejs
+[  0%] Built target _rviz_generate_messages_check_deps_SendFilePath
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+Scanning dependencies of target visualization_msgs_generate_messages_nodejs
+Scanning dependencies of target visualization_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+Scanning dependencies of target nav_msgs_generate_messages_py
+Scanning dependencies of target tf_generate_messages_nodejs
+Scanning dependencies of target map_msgs_generate_messages_py
+Scanning dependencies of target tf_generate_messages_lisp
+Scanning dependencies of target rviz_generate_messages_eus
+Scanning dependencies of target rviz_generate_messages_cpp
+Scanning dependencies of target rviz_generate_messages_nodejs
+Scanning dependencies of target rviz_generate_messages_lisp
+Scanning dependencies of target rviz_generate_messages_py
+Scanning dependencies of target connect_test_autogen
+Scanning dependencies of target interactive_marker_test_autogen
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target map_msgs_generate_messages_py
+[  2%] Automatic MOC for target interactive_marker_test
+[  2%] Automatic MOC for target connect_test
+[  3%] Generating Lisp code from rviz/SendFilePath.srv
+[  3%] Generating C++ code from rviz/SendFilePath.srv
+[  3%] Generating Javascript code from rviz/SendFilePath.srv
+[  5%] Generating EusLisp manifest code for rviz
+[  5%] Generating EusLisp code from rviz/SendFilePath.srv
+[  5%] Generating Python code from SRV rviz/SendFilePath
+[  5%] Built target interactive_marker_test_autogen
+[  5%] Built target rviz_generate_messages_lisp
+[  5%] Built target rviz_generate_messages_cpp
+[  5%] Built target rviz_generate_messages_nodejs
+[  5%] Generating Python srv __init__.py for rviz
+[  5%] Built target connect_test_autogen
+Scanning dependencies of target interactive_marker_test
+[  5%] Built target rviz_generate_messages_py
+[  5%] Building CXX object rviz/src/test/CMakeFiles/interactive_marker_test.dir/interactive_marker_test_autogen/mocs_compilation.cpp.o
+[  6%] Building CXX object rviz/src/test/CMakeFiles/interactive_marker_test.dir/interactive_marker_test.cpp.o
+Scanning dependencies of target connect_test
+[  6%] Built target rviz_generate_messages_eus
+Scanning dependencies of target rviz_generate_messages
+[  7%] Building CXX object rviz/src/test/CMakeFiles/connect_test.dir/connect_test_autogen/mocs_compilation.cpp.o
+[  7%] Building CXX object rviz/src/test/CMakeFiles/connect_test.dir/connect_test.cpp.o
+Scanning dependencies of target rviz_autogen
+[  7%] Built target rviz_generate_messages
+[  7%] Automatic MOC for target rviz
+[  7%] Linking CXX executable /mnt/d/Coding/slam/template/devel/lib/rviz/connect_test
+[  7%] Built target connect_test
+[  7%] Linking CXX executable /mnt/d/Coding/slam/template/devel/lib/rviz/interactive_marker_test
+[  7%] Built target interactive_marker_test
+[  7%] Built target rviz_autogen
+Scanning dependencies of target rviz
+[  7%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/rviz_autogen/mocs_compilation.cpp.o
+[  9%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/bit_allocator.cpp.o
+[  9%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/config.cpp.o
+[ 10%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/display.cpp.o
+[ 10%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/display_factory.cpp.o
+[ 10%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/display_group.cpp.o
+[ 10%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/displays_panel.cpp.o
+[ 11%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/failed_display.cpp.o
+[ 11%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/failed_panel.cpp.o
+[ 11%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/failed_tool.cpp.o
+[ 13%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/failed_view_controller.cpp.o
+[ 13%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/frame_manager.cpp.o
+[ 13%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/load_resource.cpp.o
+[ 14%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/frame_position_tracking_view_controller.cpp.o
+[ 14%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/geometry.cpp.o
+[ 14%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/help_panel.cpp.o
+[ 15%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/image/ros_image_texture.cpp.o
+[ 15%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/image/image_display_base.cpp.o
+[ 15%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/loading_dialog.cpp.o
+[ 17%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/mesh_loader.cpp.o
+[ 17%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/new_object_dialog.cpp.o
+[ 17%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/add_display_dialog.cpp.o
+[ 18%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/apply_visibility_bits.cpp.o
+[ 18%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/arrow.cpp.o
+[ 18%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/axes.cpp.o
+[ 19%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/billboard_line.cpp.o
+[ 19%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/camera_base.cpp.o
+[ 19%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/grid.cpp.o
+[ 21%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/initialization.cpp.o
+[ 21%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/line.cpp.o
+[ 21%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/movable_text.cpp.o
+[ 22%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/object.cpp.o
+[ 22%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/ogre_logging.cpp.o
+[ 23%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/ogre_render_queue_clearer.cpp.o
+[ 23%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/orthographic.cpp.o
+[ 23%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/point_cloud.cpp.o
+[ 25%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/qt_ogre_render_window.cpp.o
+[ 25%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/render_system.cpp.o
+[ 25%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/render_widget.cpp.o
+[ 26%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/shape.cpp.o
+[ 26%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/ogre_helpers/mesh_shape.cpp.o
+[ 27%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/panel.cpp.o
+[ 27%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/panel_dock_widget.cpp.o
+[ 27%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/panel_factory.cpp.o
+[ 27%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/preferences_dialog.cpp.o
+[ 28%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/bool_property.cpp.o
+[ 28%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/color_editor.cpp.o
+[ 28%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/color_property.cpp.o
+[ 30%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/combo_box.cpp.o
+[ 30%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/display_visibility_property.cpp.o
+[ 30%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/display_group_visibility_property.cpp.o
+[ 31%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/editable_combo_box.cpp.o
+[ 31%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/editable_enum_property.cpp.o
+[ 31%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/enum_property.cpp.o
+[ 32%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/float_edit.cpp.o
+[ 32%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/float_property.cpp.o
+[ 32%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/int_property.cpp.o
+[ 34%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/line_edit_with_button.cpp.o
+[ 34%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/parse_color.cpp.o
+[ 34%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/property.cpp.o
+[ 35%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/property_tree_delegate.cpp.o
+[ 35%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/property_tree_model.cpp.o
+[ 35%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/property_tree_widget.cpp.o
+[ 36%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/property_tree_with_help.cpp.o
+[ 36%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/quaternion_property.cpp.o
+[ 36%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/ros_topic_property.cpp.o
+[ 38%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/splitter_handle.cpp.o
+[ 38%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/status_list.cpp.o
+[ 39%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/status_property.cpp.o
+[ 39%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/string_property.cpp.o
+[ 39%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/tf_frame_property.cpp.o
+[ 40%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/render_panel.cpp.o
+[ 40%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/properties/vector_property.cpp.o
+[ 40%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/robot/robot_link.cpp.o
+[ 42%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/robot/robot_joint.cpp.o
+[ 42%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/robot/robot.cpp.o
+[ 42%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/robot/tf_link_updater.cpp.o
+[ 43%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/scaled_image_widget.cpp.o
+[ 43%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/screenshot_dialog.cpp.o
+[ 43%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/selection_panel.cpp.o
+[ 44%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/selection/selection_handler.cpp.o
+[ 44%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/selection/selection_manager.cpp.o
+[ 44%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/splash_screen.cpp.o
+[ 46%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/time_panel.cpp.o
+[ 46%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/tool.cpp.o
+[ 46%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/tool_manager.cpp.o
+[ 47%] Building CXX object rviz/src/rviz/CMakeFiles/rviz.dir/uniform_string_stream.cpp.o
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:700: rviz/src/rviz/CMakeFiles/rviz.dir/properties/display_visibility_property.cpp.o] Interrupt
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:713: rviz/src/rviz/CMakeFiles/rviz.dir/properties/display_group_visibility_property.cpp.o] Interrupt
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:973: rviz/src/rviz/CMakeFiles/rviz.dir/properties/tf_frame_property.cpp.o] Interrupt
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:999: rviz/src/rviz/CMakeFiles/rviz.dir/render_panel.cpp.o] Interrupt
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:1012: rviz/src/rviz/CMakeFiles/rviz.dir/robot/robot_link.cpp.o] Interrupt
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:1025: rviz/src/rviz/CMakeFiles/rviz.dir/robot/robot_joint.cpp.o] Interrupt
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:1038: rviz/src/rviz/CMakeFiles/rviz.dir/robot/robot.cpp.o] Interrupt
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:1051: rviz/src/rviz/CMakeFiles/rviz.dir/robot/tf_link_updater.cpp.o] Interrupt
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:1090: rviz/src/rviz/CMakeFiles/rviz.dir/selection_panel.cpp.o] Interrupt
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:1103: rviz/src/rviz/CMakeFiles/rviz.dir/selection/selection_handler.cpp.o] Interrupt
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:1116: rviz/src/rviz/CMakeFiles/rviz.dir/selection/selection_manager.cpp.o] Interrupt
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:1129: rviz/src/rviz/CMakeFiles/rviz.dir/splash_screen.cpp.o] Interrupt
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:1142: rviz/src/rviz/CMakeFiles/rviz.dir/time_panel.cpp.o] Interrupt
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:1155: rviz/src/rviz/CMakeFiles/rviz.dir/tool.cpp.o] Interrupt
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:1168: rviz/src/rviz/CMakeFiles/rviz.dir/tool_manager.cpp.o] Interrupt
+make[2]: *** [rviz/src/rviz/CMakeFiles/rviz.dir/build.make:1181: rviz/src/rviz/CMakeFiles/rviz.dir/uniform_string_stream.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:2896: rviz/src/rviz/CMakeFiles/rviz.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt
+Base path: /mnt/d/Coding/slam/template
+Source space: /mnt/d/Coding/slam/template/src
+Build space: /mnt/d/Coding/slam/template/build
+Devel space: /mnt/d/Coding/slam/template/devel
+Install space: /mnt/d/Coding/slam/template/install
+####
+#### Running command: "cmake /mnt/d/Coding/slam/template/src -DCATKIN_DEVEL_PREFIX=/mnt/d/Coding/slam/template/devel -DCMAKE_INSTALL_PREFIX=/mnt/d/Coding/slam/template/install -G Unix Makefiles" in "/mnt/d/Coding/slam/template/build"
+####
+####
+#### Running command: "make -j16 -l16" in "/mnt/d/Coding/slam/template/build"
+####
+Traceback (most recent call last):
+  File "/opt/ros/noetic/bin/catkin_make", line 306, in <module>
+    sys.exit(main())
+  File "/opt/ros/noetic/bin/catkin_make", line 249, in main
+    run_command(cmd, make_path)
+  File "/opt/ros/noetic/lib/python3/dist-packages/catkin/builder.py", line 241, in run_command
+    proc.wait()
+  File "/usr/lib/python3.8/subprocess.py", line 1083, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.8/subprocess.py", line 1806, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.8/subprocess.py", line 1764, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /mnt/d/Coding/slam/template/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /home/numbnut/miniconda3/envs/rviz39/bin/python3 (found suitable version "3.9.18", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/numbnut/miniconda3/envs/rviz39/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /home/numbnut/miniconda3/envs/rviz39/lib/python3.9/site-packages/em.py  
+-- Using empy: /home/numbnut/miniconda3/envs/rviz39/lib/python3.9/site-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /mnt/d/Coding/slam/template/build/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /home/numbnut/miniconda3/envs/rviz39/bin/python3 (found version "3.9.18") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - rviz
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'rviz'
+-- ==> add_subdirectory(rviz)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem program_options system thread 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.6.3") 
+-- Checking for modules 'OGRE;OGRE-Overlay'
+--   Found OGRE, version 1.9.0
+--   Found OGRE-Overlay, version 1.9.0
+-- OGRE_INCLUDE_DIRS=/usr/include/OGRE;/usr/include/OGRE/Overlay
+-- OGRE_LIBRARIES=/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;/usr/lib/x86_64-linux-gnu/libOgreMain.so;/usr/lib/x86_64-linux-gnu/libpthread.so
+-- OGRE_PLUGIN_DIR=/usr/lib/x86_64-linux-gnu/OGRE-1.9.0
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found PythonLibs: /home/numbnut/miniconda3/envs/rviz39/lib/libpython3.9.so (found suitable version "3.9.18", minimum required is "3.9") 
+-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+-- rviz: 0 messages, 1 services
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- making version 1.14.20.
+-- Found PythonInterp: /home/numbnut/miniconda3/envs/rviz39/bin/python3 (found suitable version "3.9.18", minimum required is "3.9") 
+-- SIP binding generator available at: /home/numbnut/miniconda3/envs/rviz39/bin/sip
+-- Python binding generators: sip
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/Coding/slam/template/build
+Scanning dependencies of target std_msgs_generate_messages_cpp
+Scanning dependencies of target nav_msgs_generate_messages_lisp
+Scanning dependencies of target std_msgs_generate_messages_lisp
+Scanning dependencies of target std_msgs_generate_messages_eus
+Scanning dependencies of target actionlib_generate_messages_nodejs
+Scanning dependencies of target std_srvs_generate_messages_eus
+Scanning dependencies of target std_msgs_generate_messages_nodejs
+Scanning dependencies of target map_msgs_generate_messages_eus
+Scanning dependencies of target std_srvs_generate_messages_cpp
+Scanning dependencies of target std_srvs_generate_messages_nodejs
+Scanning dependencies of target _rviz_generate_messages_check_deps_SendFilePath
+Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+Scanning dependencies of target std_srvs_generate_messages_lisp
+Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+Scanning dependencies of target actionlib_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target map_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+Scanning dependencies of target map_msgs_generate_messages_nodejs
+Scanning dependencies of target std_srvs_generate_messages_py
+Scanning dependencies of target actionlib_msgs_generate_messages_eus
+Scanning dependencies of target actionlib_generate_messages_lisp
+Scanning dependencies of target actionlib_msgs_generate_messages_py
+Scanning dependencies of target roscpp_generate_messages_lisp
+Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+Scanning dependencies of target roscpp_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_eus
+Scanning dependencies of target roscpp_generate_messages_py
+Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+Scanning dependencies of target sensor_msgs_generate_messages_eus
+Scanning dependencies of target visualization_msgs_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_py
+Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target map_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+Scanning dependencies of target actionlib_generate_messages_eus
+Scanning dependencies of target tf2_msgs_generate_messages_cpp
+Scanning dependencies of target tf_generate_messages_eus
+Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+Scanning dependencies of target roscpp_generate_messages_nodejs
+Scanning dependencies of target tf_generate_messages_cpp
+Scanning dependencies of target rosgraph_msgs_generate_messages_py
+Scanning dependencies of target map_msgs_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target map_msgs_generate_messages_lisp
+Scanning dependencies of target tf2_msgs_generate_messages_py
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target nav_msgs_generate_messages_cpp
+Scanning dependencies of target visualization_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target map_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target map_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_eus
+Scanning dependencies of target tf2_msgs_generate_messages_eus
+Scanning dependencies of target nav_msgs_generate_messages_nodejs
+Scanning dependencies of target visualization_msgs_generate_messages_lisp
+Scanning dependencies of target roscpp_generate_messages_eus
+Scanning dependencies of target sensor_msgs_generate_messages_py
+Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+Scanning dependencies of target actionlib_generate_messages_py
+Scanning dependencies of target sensor_msgs_generate_messages_cpp
+Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+Scanning dependencies of target tf_generate_messages_py
+Scanning dependencies of target tf2_msgs_generate_messages_lisp
+Scanning dependencies of target nav_msgs_generate_messages_eus
+Scanning dependencies of target tf2_msgs_generate_messages_nodejs
+Scanning dependencies of target visualization_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target _rviz_generate_messages_check_deps_SendFilePath
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+Scanning dependencies of target visualization_msgs_generate_messages_py
+Scanning dependencies of target nav_msgs_generate_messages_py
+Scanning dependencies of target tf_generate_messages_lisp
+Scanning dependencies of target map_msgs_generate_messages_py
+Scanning dependencies of target tf_generate_messages_nodejs
+Scanning dependencies of target interactive_marker_test_autogen
+Scanning dependencies of target connect_test_autogen
+Scanning dependencies of target rviz_generate_messages_cpp
+Scanning dependencies of target rviz_generate_messages_eus
+Scanning dependencies of target rviz_generate_messages_py
+Scanning dependencies of target rviz_generate_messages_lisp
+Scanning dependencies of target rviz_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target map_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_py
+[  2%] Automatic MOC for target interactive_marker_test
+[  2%] Automatic MOC for target connect_test
+[  3%] Generating EusLisp manifest code for rviz
+[  3%] Generating C++ code from rviz/SendFilePath.srv
+[  3%] Generating Lisp code from rviz/SendFilePath.srv
+[  3%] Generating Python code from SRV rviz/SendFilePath
+[  3%] Generating EusLisp code from rviz/SendFilePath.srv
+[  5%] Generating Javascript code from rviz/SendFilePath.srv
+[  5%] Built target interactive_marker_test_autogen
+Traceback (most recent call last):
+  File "/opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py", line 43, in <module>
+    import genpy.generator
+  File "/opt/ros/noetic/lib/python3/dist-packages/genpy/__init__.py", line 34, in <module>
+    from . message import Message, SerializationError, DeserializationError, MessageException, struct_I
+  File "/opt/ros/noetic/lib/python3/dist-packages/genpy/message.py", line 48, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'
+make[2]: *** [rviz/CMakeFiles/rviz_generate_messages_py.dir/build.make:64: /mnt/d/Coding/slam/template/devel/lib/python3/dist-packages/rviz/srv/_SendFilePath.py] Error 1
+make[1]: *** [CMakeFiles/Makefile2:738: rviz/CMakeFiles/rviz_generate_messages_py.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+Traceback (most recent call last):
+  File "/opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py", line 49, in <module>
+    genmsg.template_tools.generate_from_command_line_options(
+  File "/opt/ros/noetic/lib/python3/dist-packages/genmsg/template_tools.py", line 213, in generate_from_command_line_options
+    generate_from_file(argv[1], options.package, options.outdir, options.emdir, options.includepath, msg_template_dict, srv_template_dict)
+  File "/opt/ros/noetic/lib/python3/dist-packages/genmsg/template_tools.py", line 156, in generate_from_file
+    _generate_srv_from_file(input_file, output_dir, template_dir, search_path, package_name, srv_template_dict, msg_template_dict)
+  File "/opt/ros/noetic/lib/python3/dist-packages/genmsg/template_tools.py", line 109, in _generate_srv_from_file
+    _generate_from_spec(input_file,
+  File "/opt/ros/noetic/lib/python3/dist-packages/genmsg/template_tools.py", line 77, in _generate_from_spec
+    interpreter = em.Interpreter(output=ofile, globals=g, options={em.RAW_OPT:True,em.BUFFERED_OPT:True})
+AttributeError: module 'em' has no attribute 'RAW_OPT'
+make[2]: *** [rviz/CMakeFiles/rviz_generate_messages_cpp.dir/build.make:65: /mnt/d/Coding/slam/template/devel/include/rviz/SendFilePath.h] Error 1
+make[2]: *** Deleting file '/mnt/d/Coding/slam/template/devel/include/rviz/SendFilePath.h'
+make[1]: *** [CMakeFiles/Makefile2:1551: rviz/CMakeFiles/rviz_generate_messages_cpp.dir/all] Error 2
+[  5%] Built target rviz_generate_messages_lisp
+[  5%] Built target rviz_generate_messages_nodejs
+[  5%] Built target connect_test_autogen
+Scanning dependencies of target interactive_marker_test
+[  5%] Building CXX object rviz/src/test/CMakeFiles/interactive_marker_test.dir/interactive_marker_test_autogen/mocs_compilation.cpp.o
+[  6%] Building CXX object rviz/src/test/CMakeFiles/interactive_marker_test.dir/interactive_marker_test.cpp.o
+[  6%] Built target rviz_generate_messages_eus
+[  6%] Linking CXX executable /mnt/d/Coding/slam/template/devel/lib/rviz/interactive_marker_test
+[  6%] Built target interactive_marker_test
+make: *** [Makefile:141: all] Error 2
+Base path: /mnt/d/Coding/slam/template
+Source space: /mnt/d/Coding/slam/template/src
+Build space: /mnt/d/Coding/slam/template/build
+Devel space: /mnt/d/Coding/slam/template/devel
+Install space: /mnt/d/Coding/slam/template/install
+####
+#### Running command: "cmake /mnt/d/Coding/slam/template/src -DCATKIN_DEVEL_PREFIX=/mnt/d/Coding/slam/template/devel -DCMAKE_INSTALL_PREFIX=/mnt/d/Coding/slam/template/install -G Unix Makefiles" in "/mnt/d/Coding/slam/template/build"
+####
+####
+#### Running command: "make -j16 -l16" in "/mnt/d/Coding/slam/template/build"
+####
+Invoking "make -j16 -l16" failed
